@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:12.19.1
 
 LABEL github=https://github.com/Sean-Bradley
 
