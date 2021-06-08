@@ -22,7 +22,6 @@ sudo gitlab-runner register
 Disable shared runners
 then copy in set up a specific runner manually
 regiter the runner with this url and this registration token
-
 3. set gitlab-runner permission in /etc/sudoers:
 ```bash
 gitlab-runner   ALL=(ALL) NOPASSWD: ALL
