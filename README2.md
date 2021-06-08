@@ -18,7 +18,7 @@ curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/sc
 sudo apt install -y gitlab-runner
 sudo gitlab-runner register
 ```
-2.1 go to gitlab in > settings > CI/CD > runners
+2.1. go to gitlab in > settings > CI/CD > runners
 Disable shared runners
 then copy in set up a specific runner manually
 regiter the runner with this url and this registration token
