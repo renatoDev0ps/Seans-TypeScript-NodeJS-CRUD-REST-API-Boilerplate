@@ -1,6 +1,7 @@
 version: '2'
 services:
   nginx:
+    container_name: nginx
     build: 
       context: nginx
       dockerfile: Dockerfile
@@ -11,6 +12,7 @@ services:
       - nodejs
       
   nodejs:
+    container_name: nodejs
     build:
       context: .      
       dockerfile: Dockerfile
