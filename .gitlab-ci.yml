@@ -28,7 +28,7 @@ step-uat:
   script:
     - echo "setting up env $DYNAMIC_ENV_VAR"
     - sudo apt-get install -y python-pip
-    - sudo pip install docker-compose -H
+    - sudo pip3 install docker-compose
     - sudo docker image prune -f
     - sudo docker-compose -f docker-compose.yml build --no-cache
     - sudo docker-compose -f docker-compose.yml up -d
